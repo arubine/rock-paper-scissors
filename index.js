@@ -51,7 +51,7 @@ function playRound(playerSelection, computerSelection) {
 // console.log(playRound(playerSelection, computerSelection))
 
 function checkPrompt() {
-  let answer = prompt('Whats your move?')
+  let answer = prompt('Whats your move?').toLowerCase()
   if (optionArray.includes(answer)) {
     return answer
   } else {
